@@ -2,24 +2,24 @@
   {
       "_id": "TD01",
       "index": 0,
-      "picture": "https://i2.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_1327508127613269.jpeg?fit=819%2C820&ssl=1",
-      "name": "Noushin Rubi",
+      "picture": "https://i2.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_2784979228384168.jpeg?fit=1080%2C1100&ssl=1",
+      "name": "TASHFIRUL HUDA TOUSHI",
       "institution": "DU",
       "subject": "CSE"
   },
   {
       "_id": "TD02",
       "index": 1,
-      "picture": "https://i0.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_768763033740226.jpeg?fit=1080%2C1080&ssl=1",
-      "name": "Abid Abdullah",
+      "picture": "https://i1.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_954842848381647.jpeg?fit=686%2C686&ssl=1",
+      "name": "MEHEDI HASAN ZIHAD",
       "institution": "UIU",
       "subject": "CSE"
   },
   {
       "_id": "TD03",
       "index": 2,
-      "picture": "https://i2.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_885486732270930.jpeg?fit=768%2C769&ssl=1",
-      "name": "Samantha Sarasi",
+      "picture": "https://i0.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_768763033740226.jpeg?fit=1080%2C1080&ssl=1",
+      "name": "ABID ABDULLAH",
       "institution": "DU",
       "subject": "IBA"
   },
@@ -34,8 +34,8 @@
   {
       "_id": "6159edc06ecbc62c57a2540d",
       "index": 4,
-      "picture": "https://i0.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_428880034965592.jpeg?fit=1080%2C1081&ssl=1",
-      "name": "Barna Chakraborty",
+      "picture": "https://i1.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_388248305615461.jpeg?fit=1080%2C1080&ssl=1",
+      "name": "SUDIP SAURAV",
       "institution": "DU",
       "subject": "BBA"
   },
@@ -57,8 +57,8 @@
   {
       "_id": "TD07",
       "index": 7,
-      "picture": "https://i1.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_311044380252363_copy_691x691.jpeg?fit=691%2C691&ssl=1",
-      "name": "Kashfia Afroz",
+      "picture": "https://i1.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_456046515798566.jpeg?fit=815%2C826&ssl=1",
+      "name": "ABIR SHARKER",
       "institution": "DU",
       "subject": "BBA"
   },
@@ -81,27 +81,20 @@
   {
       "_id": "TD10",
       "index": 10,
-      "picture": "https://i1.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_2892392364324047.jpeg?fit=1080%2C1080&ssl=1",
-      "name": "Saima Hoshain",
+      "picture": "https://i0.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_849893442237619.jpeg?fit=1072%2C1072&ssl=1",
+      "name": "MOHSHIN PATWARY",
       "institution": "BUET",
       "subject": "Mechanical"
   },
   {
       "_id": "TD11",
       "index": 11,
-      "picture": "https://i2.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_420263922651276.jpeg?fit=720%2C900&ssl=1",
-      "name": "Abrar Tanvir",
+      "picture": "https://i2.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_1358818081117175.jpeg?fit=811%2C823&ssl=1",
+      "name": "SIAM N CHOWDHURY",
       "institution": "DU",
       "subject": "CSE"
-  },
-  {
-      "_id": "TD12",
-      "index": 12,
-      "picture": "https://i2.wp.com/hulkenstein.com/wp-content/uploads/2021/01/received_805867083603821.jpeg?fit=1080%2C1080&ssl=1",
-      "name": "Rony Ahmed",
-      "institution": "JU",
-      "subject": "MATH"
   }
+
 ]
 
 

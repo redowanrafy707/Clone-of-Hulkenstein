@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Home.css";
 import { useEffect, useState } from 'react';
 import { Button, Row, img } from 'react-bootstrap';
 
@@ -15,53 +16,8 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <img src="/Hulkenstein-bc.jpg" width="1500px"></img>
-            {/* <Carousel fade interval={1500}>
-                <Carousel.Item>
-                    <img
-                        className="d-block mx-auto"
-                        src="/coaching.jpg"
-                        alt="First slide"
-                        width="1500px"
-                        height="800px"
-                         
-                    />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block mx-auto"
-                        src=""
-                        alt="second slide"
-                        width="1500px"
-                        height="800px"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block mx-auto"
-                        src="/learn.jpg"
-                        alt="third slide"
-                        width="1500px"
-                        height="800px"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-
-
-            </Carousel> */}
+            <img src="/Hulkenstein-bc2.jpg" alt="" className="imgs"></img>
+            
             <h1>Our Courses</h1>
             <div className="container">
 
@@ -73,7 +29,7 @@ const Home = () => {
                 </Row>
             </div >
             <Link to="/service">
-                <Button variant="warning" >
+                <Button variant="warning" ClassName="mb-5" >
                      See more
                 </Button>
             </Link>

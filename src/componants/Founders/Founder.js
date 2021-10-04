@@ -24,9 +24,7 @@ const Founder = () => {
                                     <h4 className=
                                         "mt-4">Name:{importantPerson.name}</h4>
                                     <p>Age:{importantPerson.age}</p>
-                                    <p>Gender: {importantPerson.gender}</p>
-                                    <p><small>Position:{importantPerson.position}</small></p>
-                                    <p>Phone: {importantPerson.phone}</p>
+                                    <p>{importantPerson.about}</p>
                                 </div>
                             </div>
 
