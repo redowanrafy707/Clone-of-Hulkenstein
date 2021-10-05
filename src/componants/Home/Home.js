@@ -20,7 +20,7 @@ const Home = () => {
         <div>
             <img src="./wallpaper.jpg" alt="" className="imgs"></img>
             {/* <FirstSection></FirstSection> */}
-            {/* <SecondSection ></SecondSection> */}
+            <SecondSection ></SecondSection>
             <h1>Our <span className="Latest"> Latest</span> Courses</h1>
             <div className="container ">
 
