@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
+import "./Header.css"
 
 const Header = () => {
 
@@ -9,16 +10,17 @@ const Header = () => {
 
         <div>
 
-            <Navbar collapseOnSelect expand="lg" bg="warning" variant="dark">
+            <Navbar collapseOnSelect expand="lg" className="bg" variant="dark">
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav>
-                        <Navbar.Brand  href="/home"><img src="/nav.png" alt="" width="300px" /></Navbar.Brand>
+                        <Nav>
+                            <NavLink to="/home"><img src="/nav.png" alt="" width="280px" /></NavLink>
                         </Nav>
+                        
                         <Nav className="ms-auto">
 
-                            <NavLink to="/home" className="p-2  "
+                            <NavLink to="/home" className="p-1 text-dark "
                                 style={{
                                     textDecoration: 'none'
                                 }} activeStyle={{
@@ -26,7 +28,7 @@ const Header = () => {
                                     color: "red"
                                 }}>Home</NavLink>
                             <NavLink to="/about"
-                                className="p-2  "
+                                className="p-1 text-dark "
                                 style={{
                                     textDecoration: 'none'
                                 }}
@@ -35,7 +37,7 @@ const Header = () => {
                                     color: "red"
                                 }}>About</NavLink>
                             <NavLink to="/service"
-                                className="p-2  "
+                                className="p-1 text-dark "
                                 style={{
                                     textDecoration: 'none'
                                 }}
@@ -44,7 +46,7 @@ const Header = () => {
                                     color: "red"
                                 }}>Service</NavLink>
                             <NavLink to="/founders"
-                                className="p-2  "
+                                className="p-1 text-dark "
                                 style={{
                                     textDecoration: 'none'
                                 }}

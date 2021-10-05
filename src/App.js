@@ -14,6 +14,7 @@ import Service from './componants/Service/Service';
 import Home from './componants/Home/Home';
 import Header from './componants/Header/Header';
 import About from './componants/About/About';
+import CourseDetails from './componants/CourseDetails/CourseDetails';
  
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
           <Route exact path='/founders'>
             <Founder></Founder>
           </Route>
+          <Route exact path='/CourseDetails'>
+            <CourseDetails></CourseDetails>
+          </Route>
+          
           <Route exact path='*'>
             <NotFound></NotFound>
           </Route>

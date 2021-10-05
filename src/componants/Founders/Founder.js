@@ -16,8 +16,8 @@ const Founder = () => {
                 <div className="row">
                     {
                         person.map((importantPerson) => (
-                            <div className="col-md-4">
-                                <div className="cart">
+                            <div className="col-md-4 ">
+                                <div className="cart founders">
                                     <div className="logo-image">
                                         <img className="w-50" src={importantPerson.image} alt="" />
                                     </div>

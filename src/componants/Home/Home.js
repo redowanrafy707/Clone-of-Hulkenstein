@@ -5,6 +5,8 @@ import { Button, Row, img } from 'react-bootstrap';
 
 import Cards from '../Cards/Cards';
 import { Link } from "react-router-dom";
+import SecondSection from '../SecondSection/SecondSection';
+import FirstSection from '../FirstSection/FirstSection';
 
 
 const Home = () => {
@@ -16,10 +18,11 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <img src="/Hulkenstein-bc2.jpg" alt="" className="imgs"></img>
-            
-            <h1>Our Courses</h1>
-            <div className="container">
+            <img src="./wallpaper.jpg" alt="" className="imgs"></img>
+            {/* <FirstSection></FirstSection> */}
+            {/* <SecondSection ></SecondSection> */}
+            <h1>Our <span className="Latest"> Latest</span> Courses</h1>
+            <div className="container ">
 
                 <Row xs={3} md={4} className="g-4 mt-4">
                     {
@@ -33,7 +36,8 @@ const Home = () => {
                      See more
                 </Button>
             </Link>
-        </div>
+            </div>
+        
     );
 };
 

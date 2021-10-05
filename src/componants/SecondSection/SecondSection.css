@@ -1,0 +1,26 @@
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.full-section{
+    margin-top: 30px;
+
+}
+.lakh{
+    color: #01AB02;
+    font-weight: bolder;
+}
+.part1{
+    /* background-color: white;  */
+    font-size: 69px; 
+}
+.paragraph{
+    font-weight: bolder;
+    color: black;
+    font-size: 19px;
+    font-family: sans-serif;
+}
