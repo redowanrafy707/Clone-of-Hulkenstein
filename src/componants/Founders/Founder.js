@@ -13,10 +13,10 @@ const Founder = () => {
     return (
         <div className="container">
             <div className="director-container mt-4">
-                <div className="row">
+                <div className="row ">
                     {
                         person.map((importantPerson) => (
-                            <div className="col-md-4 ">
+                            <div className="col-md-4 founder-card">
                                 <div className="cart founders">
                                     <div className="logo-image">
                                         <img className="w-50" src={importantPerson.image} alt="" />

@@ -10,7 +10,7 @@ const Cards = (props) => {
  
  
             <Col>
-                <Card className="card" >
+                <Card className="card c-card" >
                     <Card.Img variant="top" src={picture} />
                     <Card.Body className="card-body">
                         <Card.Title>Name:{instructor_name}</Card.Title>

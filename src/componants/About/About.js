@@ -27,7 +27,7 @@ const About = () => {
             <div className="row">
                 {
                     about.map((teacher) => (
-                        <div className="col-md-4 pb-2 mt-3">
+                        <div className="col-md-4 pb-2 mt-3 cards-border">
                             <div className="cart">
                                 <div className="logo-image">
                                     <img className="w-50" src={teacher.picture} alt="" />
